@@ -8,12 +8,8 @@ onsset : Open Source Spatial Electrification Tool
 
 # Scope
 
-This repository contains the source code of the Open Source Spatial Electrification Tool
-([OnSSET](http://www.onsset.org/)).
-
-
-The repository also includes sample test files available in ```.\test_data```
-and sample output files available in ```.\sample_output```.
+This repository contains the code version of the Open Source Spatial Electrification Tool
+([OnSSET](http://www.onsset.org/)), as used for IRENA's West Africa Electrification Platform.
 
 ## Installation
 
@@ -52,6 +48,14 @@ git clone https://github.com/onsset/onsset.git
 cd onsset
 python setup.py develop
 ```
+
+## Data
+Input data is available for the four countries seen on the West Africa Electrification Platform
+- [Burkina Faso](https://drive.google.com/drive/folders/1zmNHojgQYT_3AYmxeWQ12WwunGngtSyJ)
+- [Mali](https://drive.google.com/drive/folders/1a8a35fW3jiDgdq43BK8v9qFUW1fIj56K)
+- [Nigeria](https://drive.google.com/drive/folders/1N2fOnIMD_P-FsgvsJIvxj7CJDESedUIL)
+- [Senegal](https://drive.google.com/drive/folders/17SaDTLyvjBm64fOs3Iai6awuvHaFBy-Z)
+
 
 ## Contact
 For more information regarding the tool, its functionality and implementation
