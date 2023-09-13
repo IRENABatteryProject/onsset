@@ -37,9 +37,11 @@ if choice == 1:
 elif choice == 2:
     messagebox.showinfo('OnSSET', 'Open the csv file with calibrated GIS data')
     calibrated_csv_path = filedialog.askopenfilename()
+    messagebox.showinfo('OnSSET', 'Browse to the folder with hourly PV data files')
+    pv_path = filedialog.askopenfilename()
     messagebox.showinfo('OnSSET', 'Browse to RESULTS folder to save outputs')
     results_folder = filedialog.askdirectory()
     messagebox.showinfo('OnSSET', 'Browse to SUMMARIES folder and name the scenario to save outputs')
     summary_folder = filedialog.askdirectory()
 
-    scenario(specs_path, calibrated_csv_path, results_folder, summary_folder)
+    scenario(specs_path, calibrated_csv_path, results_folder, summary_folder, pv_path)
